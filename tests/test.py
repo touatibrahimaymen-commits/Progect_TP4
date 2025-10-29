@@ -1,7 +1,7 @@
-from Calculator import add
+from src.Calculator import calculator
 
 def test_empty_string():
-    assert add("") == 0
+    assert calculator("0") == 0
 
- def test_empty_string_num():
-        assert add("1") == 1
+def test_empty_string_num():
+    assert calculator("1") == 1
