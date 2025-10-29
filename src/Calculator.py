@@ -4,3 +4,9 @@ def calculator(numbers:str)->int :
     if len(numbers) == 1 :
         return int(numbers)
     return 0
+
+
+def convert(numbers01, numbers02) -> int:
+
+    return int(numbers01) + int(numbers02)
+
